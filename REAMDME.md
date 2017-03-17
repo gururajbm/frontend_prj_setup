@@ -1,1 +1,1 @@
-jurgensen project
+my project
