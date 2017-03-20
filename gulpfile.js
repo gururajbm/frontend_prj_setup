@@ -11,7 +11,7 @@ gulp.task('default', function() {
     ])
     .pipe(concat('project.min.js'))
     //.pipe(uglify())  //commented for development mode
-    .pipe(gulp.dest('/dist'));
+    .pipe(gulp.dest('dist'));
 });
 
 gulp.task('watch', function () {

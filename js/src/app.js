@@ -20,7 +20,7 @@
 
         $httpProvider.interceptors.push([
             '$rootScope',
-            '$q'
+            '$q',
             function($rootScope, $q) {
                 return {
                     'request': function(config) {
